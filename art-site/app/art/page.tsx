@@ -6,18 +6,19 @@ const art = () => {
     <div className='flex justify-center items-center h-screen'>
 
 <div className="carousel w-full ">
-  <div id="slide1" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/barn.jpg" className="w-full"  width={500}
-      height={500} /></div>
+  <div id="slide1" className="carousel-item relative w-full flex justify-center items-center flex-col">
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/barn.jpg" className="w-full"  width={800}
+      height={800} /></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide13" className="btn btn-circle">❮</a> 
       <a href="#slide2" className="btn btn-circle">❯</a>
     </div>
+    <h1>This is a great barn img by Jim McTighe 2020</h1>
   </div> 
 
   <div id="slide2" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'> <Image alt="art"  objectFit="cover" src="/donkey.jpg" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'> <Image alt="art"  src="/donkey.jpg" className="w-full"  width={500}
       height={500} /></div>
    
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -27,7 +28,7 @@ const art = () => {
   </div> 
 
   <div id="slide3" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'> <Image alt="art"  objectFit="cover" src="/fisherman.jpg" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'> <Image alt="art"  src="/fisherman.jpg" className="w-full"  width={500}
       height={500}/></div>
    
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -36,7 +37,7 @@ const art = () => {
     </div>
   </div> 
   <div id="slide4" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/flowers.JPG" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/flowers.JPG" className="w-full"  width={500}
       height={500}/></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -45,7 +46,7 @@ const art = () => {
     </div>
   </div>
   <div id="slide5" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/greenDawn.jpg" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/greenDawn.jpg" className="w-full"  width={500}
       height={500}/></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -54,7 +55,7 @@ const art = () => {
     </div>
   </div>
   <div id="slide6" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/horses.jpg" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/horses.jpg" className="w-full"  width={500}
       height={500} /></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -64,7 +65,7 @@ const art = () => {
   </div>
 
   <div id="slide7" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/koi.jpg" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/koi.jpg" className="w-full"  width={500}
       height={500}/></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -73,7 +74,7 @@ const art = () => {
     </div>
   </div>
   <div id="slide8" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/pastelplayground.jpg" className="w-full"   width={500}
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/pastelplayground.jpg" className="w-full"   width={500}
       height={500}/></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -82,7 +83,7 @@ const art = () => {
     </div>
   </div>
   <div id="slide9" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/roses.jpg" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/roses.jpg" className="w-full"  width={500}
       height={500} /></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -91,7 +92,7 @@ const art = () => {
     </div>
   </div>
   <div id="slide10" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/stag.JPG" className="w-full"   width={500}
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/stag.JPG" className="w-full"   width={500}
       height={500}/></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -100,7 +101,7 @@ const art = () => {
     </div>
   </div>
   <div id="slide11" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'> <Image alt="art"  objectFit="cover" src="/yellowBall.jpg" className="w-full"   width={500}
+  <div className=' relative'> <Image alt="art"  src="/yellowBall.jpg" className="w-full"   width={500}
       height={500}/></div>
    
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -109,7 +110,7 @@ const art = () => {
     </div>
   </div>
   <div id="slide12" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'> <Image alt="art"  objectFit="cover" src="/zebraPlant.JPG" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'> <Image alt="art"  src="/zebraPlant.JPG" className="w-full"  width={500}
       height={500} /></div>
    
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -118,7 +119,7 @@ const art = () => {
     </div>
   </div>
   <div id="slide13" className="carousel-item relative w-full flex justify-center items-center">
-  <div className='w-500 h-500 relative'><Image alt="art"  objectFit="cover" src="/zionReflection.JPG" className="w-full"  width={500}
+  <div className='w-500 h-500 relative'><Image alt="art"  src="/zionReflection.JPG" className="w-full h-50"  width={500}
       height={500}/></div>
     
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
