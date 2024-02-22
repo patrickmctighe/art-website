@@ -17,8 +17,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="h-screen w-screen  bg-gradient-to-r from-emerald-50 to-emerald-500">
+    <html lang="en" className="h-full">
+      <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link  href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+
+      </head>
+      <body className="h-screen w-screen overflow-hidden bg-gradient-to-r from-emerald-50 to-white-500">
 
       <header className="flex justify-around items-center h-20 glass ">
         <Image src="/logoArt.png" alt="logo" width={200} height={300}/>

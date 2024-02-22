@@ -14,8 +14,10 @@
 }
 
 body {
-
-
+  font-family: "Marvel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1.39em;
 }
 
 @layer utilities {
@@ -23,3 +25,70 @@ body {
     text-wrap: balance;
   }
 }
+
+.barn, .donkey, .fisherman, .flowers, .dawn, .horses, .koi, .playground, .roses, .stag, .ball, .zebra, .zion{
+  max-height:70vh;
+  max-width:60vw;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+/* .donkey{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.fisherman{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.flowers{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.dawn{
+  max-height:70vh;
+  max-width:50vw;
+}
+.horses{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.koi{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.playground{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.roses{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.stag{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.ball{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.zebra{
+  max-height:70vh;
+  max-width:50vw;
+}
+
+.zion{
+  max-height:70vh;
+  max-width:50vw;
+} */
+

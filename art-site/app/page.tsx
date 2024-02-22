@@ -14,33 +14,23 @@ export default function Home() {
             height={300}
           />
         </div>
-        <div className="w-1/4">
+        <div className="w-1/3">
           <p>
-            I am a passionate photographer and digital artist with a keen eye
-            for capturing the beauty of the world around me. From a young age, I
-            found solace behind the lens of a camera, using it as a tool to
-            express my creativity and showcase the wonders of life.My journey
-            into photography began as a hobby, but quickly evolved into a
-            lifelong passion. I am constantly inspired by the intricate details
-            of nature, the vibrant colors of urban landscapes, and the
-            compelling stories of the people I encounter. Through my lens, I aim
-            to capture fleeting moments and evoke emotions that resonate with
-            viewers.In addition to photography, I am deeply immersed in the
-            world of digital art. Using advanced editing techniques and
-            software, I transform my photographs into captivating works of art.
-            Whether through surreal manipulations, vibrant collages, or abstract
-            compositions, I strive to push the boundaries of creativity and
-            challenge conventional perceptions.For me, photography and digital
-            art are more than just mediums of expression – they are a reflection
-            of my innermost thoughts, feelings, and experiences. Through my
-            work, I seek to inspire others to see the world with fresh eyes, to
-            appreciate the beauty in the ordinary, and to find joy in the
-            creative process.My ultimate goal as a photographer and digital
-            artist is to leave a lasting impact on those who view my work.
-            Whether it's sparking a sense of wonder, igniting a passion for art,
-            or encouraging introspection, I hope to touch hearts and minds
-            through the power of imagery.In essence, I am an artist on a
-            perpetual journey of exploration and self-discovery. 
+          Jim Mctighe’s interest in art began with his drawings at age five. That interest led him to study art at East Carolina University, Parson School of Design, the Pratt Institute in New York City and the Penland School in North Carolina where he did numerous intensives in sculpture and photography. <br/>
+
+One such intensive was with the renowned sculptor Henry Moore and resulted in Jim having three of his own pieces showcased in national tours. <br/>
+
+Following his time as a sculptor, Jim provided for his family by applying his creative energies to a successful career in advertising that he enjoyed for over 25 years.  <br/>
+
+Upon retiring from the corporate world, Jim and is family moved to Mexico for 5 years where his creativity was sparked once again.  <br/>
+
+The beauty of Mexico, with its bold colors and beautiful architecture, combined with Jim’s unique perspective of seeing the simple things of life in a beautiful way resulted in a style of photography he’s applied to every photo he’s taken since.  <br/>
+
+Jim captures everyday life through the lens of his camera in a way that reflects his special ability to see beauty and value everything around him. <br/>
+
+A prolific artist ,im’s unique work is created not only from what he sees with the lens of his camera, but through his original digital process that makes his artwork stand out as something to be admired and enjoyed by all who see it. <br/>
+
+Each piece of art, though first captured through the lens of his camera, culminates as a piece that will capture your heart. 
           </p>
         </div>
       </div></div>
