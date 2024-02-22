@@ -8,7 +8,7 @@ export default function Home() {
         <div>
           <Image
             alt="art"
-            src="/beach.jpeg"
+            src="/beach.jpg"
             className=""
             width={300}
             height={300}
